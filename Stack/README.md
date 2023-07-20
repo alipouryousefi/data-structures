@@ -1,3 +1,5 @@
+# Stack
+
 you can implement a stack using an array. A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, which means that the last element added to the stack will be the first one to be removed.
 
 In the example, we create a Stack class with methods to perform common stack operations:

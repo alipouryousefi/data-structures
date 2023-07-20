@@ -1,3 +1,5 @@
+# Queue
+
 you can implement a queue using an array. A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle, which means that the first element added to the queue will be the first one to be removed.
 
 In the example, we create a Queue class with methods to perform common queue operations:

@@ -1,3 +1,5 @@
+# Linked List
+
 A linked list is a linear data structure that consists of a sequence of elements called nodes. Each node contains two parts: the data (or value) and a reference (or link) to the next node in the sequence. The last node's reference typically points to null, indicating the end of the list.
 
 In JavaScript, linked lists are commonly implemented using objects or classes to represent nodes and manage the list.

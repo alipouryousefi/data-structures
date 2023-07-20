@@ -1,3 +1,5 @@
+# Tree
+
 you can represent a tree data structure using objects and references. A tree is a hierarchical data structure composed of nodes, where each node has a value and can have zero or more child nodes. The topmost node in the tree is called the root, and nodes with no children are called leaf nodes.
 
 In the example above, we create a TreeNode class, which represents a node in the tree. Each node has a value and an array of children to store its child nodes.
