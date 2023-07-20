@@ -8,6 +8,7 @@ In the example, we create a Stack class with methods to perform common stack ope
 4. isEmpty(): Checks if the stack is empty.
 5. size(): Returns the number of elements in the stack.
 6. clear(): Clears the stack by removing all elements.
+
 We can then create a new Stack object and perform various stack operations, such as pushing elements onto the stack, popping elements, checking the top element, checking if the stack is empty, and clearing the stack.
 
 Stacks are commonly used in solving problems involving recursion, parsing expressions, maintaining function calls, and more.
