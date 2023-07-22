@@ -1,0 +1,7 @@
+# Bloom filter
+
+A Bloom filter is a probabilistic data structure used to efficiently test whether an element is a member of a set. It can quickly tell you if an element is "probably" in the set or "definitely" not in the set. Bloom filters are space-efficient because they use a fixed-size bit array and a set of hash functions to represent elements.
+
+In this implementation, we create a BloomFilter class that takes two parameters: size, which is the size of the bit array, and hashFunctions, which is an array of hash functions. The add method adds an element to the Bloom filter by setting the corresponding bits in the bit array. The contains method checks if an element is probably in the Bloom filter by checking if all the bits from the corresponding hash function indexes are set to true.
+
+Keep in mind that Bloom filters have a small probability of false positives, meaning that it may incorrectly indicate that an element is in the set when it's not. The probability of false positives depends on the size of the bit array and the number of hash functions used. Bloom filters are commonly used for tasks like membership testing and duplicate detection, where occasional false positives are acceptable.
